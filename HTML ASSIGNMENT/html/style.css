@@ -2,39 +2,48 @@
     background-image: url("school.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height:700px;
+    height:600px;
     padding-left: 10px;
-    
-}
-.head{
-    margin-right: 700px;
-    color: blue;
-    font-weight: lighter;
-    padding-top: 10px;
 
-}
-.navigation{
-    margin-left: 680px;   
-    float:left;
     
+}
+p1{
+    font-size: 24px;
+    color: brown;
 }
 a{
+    display: inline-block;
     text-decoration-line: none;
-    padding: 1%;
     margin: 5px;
-    margin-bottom: 1000px;
+    color: blue;
+    padding: 16px;
+    
+    }
+#head{
+    display: inline-block;
+    color: white;
+    font-weight: 23px;
+    padding-top: 10px;
+    margin-left: 36px;
+    font-size: 24px;
+
+}
+.navigation{  
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 
 }
 .button{
-margin-left: 340px;
-    padding: 10px 20px 10px 20px;
-    text-align: left;
-    align-content:first baseline;
-    border-radius: 15px;
+    border-radius:15px;
     border: none;
     color: white;
     background-color: orange;
-    
+    padding: 15px 18px;
+    font-size: 20px;  
+}
+.element{
+    margin-left: 500px;
 }
 .button2{
     padding:10px 35px ;
@@ -42,13 +51,21 @@ margin-left: 340px;
     border: none;
     background-color: orange;
     color: white;
+    font-weight: bold;
+    font-size: 23px;
 }
 #h2{
 font-weight: bold;
-margin: 5px;
+margin: 15px;
 text-align: justify;
+color: brown;
 }
 #h1{
-    font-weight: lighter;
-    margin: 5px;
+    font-weight: bold;
+    margin: 15px;
+    color: rgb(226, 43, 58);
 }
+.icon{
+    margin-left: 1000px;
+}
+
