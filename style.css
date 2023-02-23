@@ -1,0 +1,13 @@
+.container{
+border-style: dotted;
+border-color: blueviolet;
+}
+.text{
+    border-style: solid;
+border-color: blue;
+padding:20px;
+margin: 5%;
+font-size: larger;
+
+
+}
