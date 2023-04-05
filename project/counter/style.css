@@ -1,0 +1,21 @@
+.container{
+    display:block;
+    text-align: center;
+    font-size: 50px;
+    background-color: blueviolet;
+}
+button{
+    background: green;
+   padding:30px,55px;
+   color: #e90b0b; 
+   border: none;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: 30px;
+   cursor: pointer
+   /* transition: -50%; */
+}
+button:hover{
+    background: rgb(240, 59, 3);
+    color: white;
+}
